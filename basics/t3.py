@@ -21,5 +21,5 @@ print(f"расходы за год {yearly_expenses=}")
 balance = yearly_salary - yearly_expenses
 print(f"ваш баланс за год {balance=}")
 
-
-
+if salary > balance:
+    print("Ваши затраты слишком велики, зарабатывайте больше, либо учитесь экономить")
